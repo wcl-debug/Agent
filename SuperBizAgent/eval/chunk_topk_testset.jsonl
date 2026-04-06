@@ -1,0 +1,20 @@
+{"id":"Q001","question":"CPU 告警持续 15 分钟通常该先查什么指标？","must_keywords":["CPU","指标"],"should_keywords":["负载","告警"],"category":"aiops"}
+{"id":"Q002","question":"排查内存告警时，常见的定位步骤有哪些？","must_keywords":["内存"],"should_keywords":["告警","日志","指标"],"category":"aiops"}
+{"id":"Q003","question":"如果服务响应变慢，先看哪几个监控维度？","must_keywords":["响应","监控"],"should_keywords":["延迟","QPS","错误率"],"category":"aiops"}
+{"id":"Q004","question":"日志里出现大量 timeout，应该怎么判断是下游问题还是本服务问题？","must_keywords":["timeout"],"should_keywords":["下游","重试","超时"],"category":"aiops"}
+{"id":"Q005","question":"如何根据告警和日志给出根因分析报告结构？","must_keywords":["根因","报告"],"should_keywords":["告警","日志","结论"],"category":"aiops"}
+{"id":"Q006","question":"向量数据库在这个项目中的作用是什么？","must_keywords":["向量","检索"],"should_keywords":["RAG","文档"],"category":"rag"}
+{"id":"Q007","question":"上传文档后，系统是如何完成向量化入库的？","must_keywords":["上传","分片","向量"],"should_keywords":["Milvus","embedding"],"category":"rag"}
+{"id":"Q008","question":"文档分片的 max-size 和 overlap 分别影响什么？","must_keywords":["max-size","overlap"],"should_keywords":["召回","上下文"],"category":"rag"}
+{"id":"Q009","question":"top-k 从 3 调到 8，回答质量可能会有哪些变化？","must_keywords":["top-k"],"should_keywords":["召回","噪声","准确"],"category":"rag"}
+{"id":"Q010","question":"如果检索不到内容，通常要先排查哪几步？","must_keywords":["检索"],"should_keywords":["索引","向量","文档"],"category":"rag"}
+{"id":"Q011","question":"这个系统有哪些对话接口，流式和非流式有什么区别？","must_keywords":["接口"],"should_keywords":["chat_stream","SSE","chat"],"category":"api"}
+{"id":"Q012","question":"会话历史在当前实现里是如何管理的？","must_keywords":["会话","历史"],"should_keywords":["内存","窗口"],"category":"session"}
+{"id":"Q013","question":"为什么上传同名文档时需要先删除旧向量数据？","must_keywords":["删除","旧数据"],"should_keywords":["去重","覆盖"],"category":"rag"}
+{"id":"Q014","question":"AIOps 的 Planner 和 Executor 分工分别是什么？","must_keywords":["Planner","Executor"],"should_keywords":["Supervisor","多 Agent"],"category":"aiops"}
+{"id":"Q015","question":"如果工具调用连续失败，系统应该如何处理更稳妥？","must_keywords":["失败"],"should_keywords":["重试","终止","告警"],"category":"aiops"}
+{"id":"Q016","question":"如何验证文档分片是否过碎或过粗？","must_keywords":["分片"],"should_keywords":["chunk","召回","上下文"],"category":"rag"}
+{"id":"Q017","question":"如何设计一个稳定的参数回归测试，避免优化后变差？","must_keywords":["参数","回归"],"should_keywords":["基线","对比","命中率"],"category":"eval"}
+{"id":"Q018","question":"这个项目里 Milvus 健康检查接口是哪个？","must_keywords":["milvus","health"],"should_keywords":["接口","检查"],"category":"api"}
+{"id":"Q019","question":"上传接口支持哪些文件类型？","must_keywords":["txt","md"],"should_keywords":["上传","扩展名"],"category":"api"}
+{"id":"Q020","question":"如何把对话长期保存并设置过期策略？","must_keywords":["对话","保存"],"should_keywords":["Redis","过期","TTL"],"category":"session"}
